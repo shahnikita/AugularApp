@@ -1,0 +1,16 @@
+{
+  "name": "authority",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {},
+  "private": true,
+  "dependencies": {
+    "rxjs": "^5.5.0",
+    "typescript": "~2.5.3",
+    "@angular/core": "^5.2.10",
+    "@angular/common": "^5.2.0",
+    "@angular/router": "^5.2.0",
+    "zone.js": "^0.8.19"
+  },
+  "devDependencies": {}
+}
