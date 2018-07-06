@@ -8,9 +8,9 @@ import { Login } from '../../imports';
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent extends Login {
-
+  pageTitle:string;
   constructor() {
     super();
   }
-  
+
 }

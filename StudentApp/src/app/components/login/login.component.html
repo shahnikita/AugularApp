@@ -1,35 +1,25 @@
-<div class="panel panel-primary">
-  <div class="panel-heading">
-    {{pageTitle}}
-  </div>
-  <div class="panel-body">
-    <div class="col-xs-offset-3">
-      <div class="row">
-        <div class='col-md-1'>UserName:</div>
-        <div class='col-md-1'>
-          <input type="text" placeholder="Username" [(ngModel)]='user.userName' />
-        </div>
+<div class="panel-body">
+  <div class="col-xs-offset-3">
+    <div class="row">
+      <div class='col-md-1'>UserName:</div>
+      <div class='col-md-1'>
+        <input type="text" placeholder="Username" [(ngModel)]='user.userName' />
       </div>
-      <div class="row">&nbsp;</div>
-      <div class="row">
-        <div class='col-md-1'>Password:</div>
-        <div class='col-md-2'>
-          <input type="password" [(ngModel)]='user.password' placeholder="Password" />
-        </div>
+    </div>
+    <div class="row">&nbsp;</div>
+    <div class="row">
+      <div class='col-md-1'>Password:</div>
+      <div class='col-md-2'>
+        <input type="password" [(ngModel)]='user.password' placeholder="Password" />
       </div>
-      <div class="row">&nbsp;</div>
-      <div class="row col-xs-offset-1">
-        <div class="col-md-1">
-          <button class="btn-default" 
-                  [disabled]="disabled" 
-                  [ngClass]="{'btn-primary': !disabled}"
-                  (click)="LoginUser()">
-            Login
-          </button>
-        </div>
-        <div class="col-md-1">
-          <button class="btn-block" (click)="Cancel()">Cancel</button>
-        </div>
+    </div>
+    <div class="row">&nbsp;</div>
+    <div class="row col-xs-offset-1">
+      <div class="col-md-1">
+        <button class="btn-default" [disabled]="disabled" [ngClass]="{'btn-primary': !disabled}" (click)="LoginUser()">Login</button>
+      </div>
+      <div class="col-md-1">
+        <button class="btn-block" (click)="Cancel()">Cancel</button>
       </div>
     </div>
   </div>
