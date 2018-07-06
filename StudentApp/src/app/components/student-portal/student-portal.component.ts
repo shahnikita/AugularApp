@@ -1,15 +1,14 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+import { Student } from '../../imports';
 
 @Component({
-  selector: 'app-student-portal',
-  templateUrl: './student-portal.component.html',
-  styleUrls: ['./student-portal.component.css']
+  selector: 'student-portal',
+  templateUrl: './student-portal.component.html'
 })
-export class StudentPortalComponent implements OnInit {
+export class StudentPortalComponent extends Student {
 
-  constructor() { }
-
-  ngOnInit() {
+  constructor() {
+    super();
   }
 
 }
