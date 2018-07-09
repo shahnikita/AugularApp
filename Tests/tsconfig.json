@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "target": "es5",
+      "module": "commonjs",
+      "lib": [ "dom", "es2015" ],
+      "outDir": "./out",
+      "moduleResolution": "node",
+      "baseUrl": "./node_modules/",
+      "paths": {
+        "@angular/*": [ "./@angular/*" ],
+        "@ln/*": ["./@ln/*"],
+        "rxjs": ["./rxjs/"]
+      },
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true
+    }
+  }
