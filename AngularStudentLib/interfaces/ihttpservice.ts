@@ -1,5 +1,7 @@
-import { IRequestOptions } from './IRequestOptions';
-import { Observable } from 'rxjs/Observable';
+
+import { Observable } from '../../StudentApp/node_modules/rxjs/Observable';
+import { IRequestOptions } from '../interfaces/irequestoptions';
+
 
 /**
  * @desc Interface for classes that wrap HTTP calls
