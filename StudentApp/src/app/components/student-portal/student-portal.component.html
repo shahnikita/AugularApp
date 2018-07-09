@@ -16,5 +16,19 @@
                 />
       </div>
     </div>
+    <div class="row">&nbsp;</div>
+    <div class="row">
+      <div class="col-md-1">
+        <button class="btn-block btn-default"
+                [disabled]="disabled"
+                [ngClass]="{'btn-primary': !disabled}"
+                (click)="AddOrUpdateStudent()">
+                Submit
+          </button>
+      </div>
+      <div class="col-md-1">
+        <button class="btn-block" (click)="Cancel()">Cancel</button>
+      </div>
+    </div>
   </div>
 </div>
